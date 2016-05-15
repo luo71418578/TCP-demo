@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCDB91FB18AC9EB2009A49FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDB91FA18AC9EB2009A49FF /* UIKit.framework */; };
+		BCDB91FD18AC9EB2009A49FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDB91FC18AC9EB2009A49FF /* Foundation.framework */; };
+		BCDB91FF18AC9EB2009A49FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDB91FE18AC9EB2009A49FF /* CoreGraphics.framework */; };
+		BCDB920518AC9EB2009A49FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCDB920318AC9EB2009A49FF /* InfoPlist.strings */; };
+		BCDB920718AC9EB2009A49FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDB920618AC9EB2009A49FF /* main.m */; };
+		BCDB920B18AC9EB2009A49FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDB920A18AC9EB2009A49FF /* AppDelegate.m */; };
+		BCDB920D18AC9EB2009A49FF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDB920C18AC9EB2009A49FF /* Default.png */; };
+		BCDB920F18AC9EB2009A49FF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDB920E18AC9EB2009A49FF /* Default@2x.png */; };
+		BCDB921118AC9EB2009A49FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCDB921018AC9EB2009A49FF /* Default-568h@2x.png */; };
+		BCDB921418AC9EB2009A49FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDB921318AC9EB2009A49FF /* ViewController.m */; };
+		BCDB921718AC9EB2009A49FF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDB921518AC9EB2009A49FF /* ViewController.xib */; };
+		BCDB922218AC9EC8009A49FF /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDB921F18AC9EC8009A49FF /* AsyncSocket.m */; };
+		BCDB922318AC9EC8009A49FF /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDB922118AC9EC8009A49FF /* AsyncUdpSocket.m */; };
+		BCDB922518AC9EDA009A49FF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDB922418AC9EDA009A49FF /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCDB91F718AC9EB2009A49FF /* TCPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDB91FA18AC9EB2009A49FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCDB91FC18AC9EB2009A49FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCDB91FE18AC9EB2009A49FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCDB920218AC9EB2009A49FF /* TCPDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TCPDemo-Info.plist"; sourceTree = "<group>"; };
+		BCDB920418AC9EB2009A49FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCDB920618AC9EB2009A49FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCDB920818AC9EB2009A49FF /* TCPDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCPDemo-Prefix.pch"; sourceTree = "<group>"; };
+		BCDB920918AC9EB2009A49FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCDB920A18AC9EB2009A49FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCDB920C18AC9EB2009A49FF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BCDB920E18AC9EB2009A49FF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BCDB921018AC9EB2009A49FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BCDB921218AC9EB2009A49FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCDB921318AC9EB2009A49FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCDB921618AC9EB2009A49FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BCDB921E18AC9EC8009A49FF /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		BCDB921F18AC9EC8009A49FF /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		BCDB922018AC9EC8009A49FF /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		BCDB922118AC9EC8009A49FF /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		BCDB922418AC9EDA009A49FF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCDB91F418AC9EB2009A49FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDB922518AC9EDA009A49FF /* CFNetwork.framework in Frameworks */,
+				BCDB91FB18AC9EB2009A49FF /* UIKit.framework in Frameworks */,
+				BCDB91FD18AC9EB2009A49FF /* Foundation.framework in Frameworks */,
+				BCDB91FF18AC9EB2009A49FF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCDB91EE18AC9EB2009A49FF = {
+			isa = PBXGroup;
+			children = (
+				BCDB922418AC9EDA009A49FF /* CFNetwork.framework */,
+				BCDB921D18AC9EC8009A49FF /* AsyncSocket */,
+				BCDB920018AC9EB2009A49FF /* TCPDemo */,
+				BCDB91F918AC9EB2009A49FF /* Frameworks */,
+				BCDB91F818AC9EB2009A49FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCDB91F818AC9EB2009A49FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCDB91F718AC9EB2009A49FF /* TCPDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCDB91F918AC9EB2009A49FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCDB91FA18AC9EB2009A49FF /* UIKit.framework */,
+				BCDB91FC18AC9EB2009A49FF /* Foundation.framework */,
+				BCDB91FE18AC9EB2009A49FF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCDB920018AC9EB2009A49FF /* TCPDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BCDB920918AC9EB2009A49FF /* AppDelegate.h */,
+				BCDB920A18AC9EB2009A49FF /* AppDelegate.m */,
+				BCDB921218AC9EB2009A49FF /* ViewController.h */,
+				BCDB921318AC9EB2009A49FF /* ViewController.m */,
+				BCDB921518AC9EB2009A49FF /* ViewController.xib */,
+				BCDB920118AC9EB2009A49FF /* Supporting Files */,
+			);
+			path = TCPDemo;
+			sourceTree = "<group>";
+		};
+		BCDB920118AC9EB2009A49FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCDB920218AC9EB2009A49FF /* TCPDemo-Info.plist */,
+				BCDB920318AC9EB2009A49FF /* InfoPlist.strings */,
+				BCDB920618AC9EB2009A49FF /* main.m */,
+				BCDB920818AC9EB2009A49FF /* TCPDemo-Prefix.pch */,
+				BCDB920C18AC9EB2009A49FF /* Default.png */,
+				BCDB920E18AC9EB2009A49FF /* Default@2x.png */,
+				BCDB921018AC9EB2009A49FF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCDB921D18AC9EC8009A49FF /* AsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				BCDB921E18AC9EC8009A49FF /* AsyncSocket.h */,
+				BCDB921F18AC9EC8009A49FF /* AsyncSocket.m */,
+				BCDB922018AC9EC8009A49FF /* AsyncUdpSocket.h */,
+				BCDB922118AC9EC8009A49FF /* AsyncUdpSocket.m */,
+			);
+			path = AsyncSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCDB91F618AC9EB2009A49FF /* TCPDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCDB921A18AC9EB2009A49FF /* Build configuration list for PBXNativeTarget "TCPDemo" */;
+			buildPhases = (
+				BCDB91F318AC9EB2009A49FF /* Sources */,
+				BCDB91F418AC9EB2009A49FF /* Frameworks */,
+				BCDB91F518AC9EB2009A49FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCPDemo;
+			productName = TCPDemo;
+			productReference = BCDB91F718AC9EB2009A49FF /* TCPDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCDB91EF18AC9EB2009A49FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = qianfeng;
+			};
+			buildConfigurationList = BCDB91F218AC9EB2009A49FF /* Build configuration list for PBXProject "TCPDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCDB91EE18AC9EB2009A49FF;
+			productRefGroup = BCDB91F818AC9EB2009A49FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCDB91F618AC9EB2009A49FF /* TCPDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCDB91F518AC9EB2009A49FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDB920518AC9EB2009A49FF /* InfoPlist.strings in Resources */,
+				BCDB920D18AC9EB2009A49FF /* Default.png in Resources */,
+				BCDB920F18AC9EB2009A49FF /* Default@2x.png in Resources */,
+				BCDB921118AC9EB2009A49FF /* Default-568h@2x.png in Resources */,
+				BCDB921718AC9EB2009A49FF /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCDB91F318AC9EB2009A49FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDB920718AC9EB2009A49FF /* main.m in Sources */,
+				BCDB920B18AC9EB2009A49FF /* AppDelegate.m in Sources */,
+				BCDB921418AC9EB2009A49FF /* ViewController.m in Sources */,
+				BCDB922218AC9EC8009A49FF /* AsyncSocket.m in Sources */,
+				BCDB922318AC9EC8009A49FF /* AsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCDB920318AC9EB2009A49FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCDB920418AC9EB2009A49FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCDB921518AC9EB2009A49FF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCDB921618AC9EB2009A49FF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCDB921818AC9EB2009A49FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCDB921918AC9EB2009A49FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCDB921B18AC9EB2009A49FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCPDemo/TCPDemo-Prefix.pch";
+				INFOPLIST_FILE = "TCPDemo/TCPDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCDB921C18AC9EB2009A49FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCPDemo/TCPDemo-Prefix.pch";
+				INFOPLIST_FILE = "TCPDemo/TCPDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCDB91F218AC9EB2009A49FF /* Build configuration list for PBXProject "TCPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDB921818AC9EB2009A49FF /* Debug */,
+				BCDB921918AC9EB2009A49FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCDB921A18AC9EB2009A49FF /* Build configuration list for PBXNativeTarget "TCPDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDB921B18AC9EB2009A49FF /* Debug */,
+				BCDB921C18AC9EB2009A49FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCDB91EF18AC9EB2009A49FF /* Project object */;
+}
